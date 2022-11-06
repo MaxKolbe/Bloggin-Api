@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 require('dotenv').config();
 
-const MONGODB_URI = "mongodb+srv://Maxmilian:Theodd3sout@cluster0.9l99fwv.mongodb.net/test";
+const MONGODB_URI = "mongodb+srv://Maxmilian:Theodd3sout@cluster0.9l99fwv.mongodb.net/?retryWrites=true&w=majority";
 
 // connect to mongodb
 function connectToMongoDB() {
