@@ -10,7 +10,7 @@ const userModel = require("./Models/userModel")
 require("dotenv").config()
 
 const app = express()
-const PORT = 3000 
+const PORT = process.env.PORT || 3000 
 
 app.set('views', 'views');
 app.set('view engine', 'ejs');
